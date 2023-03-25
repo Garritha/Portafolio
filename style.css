@@ -466,9 +466,36 @@ section.experience{
 }
 
 /*footeer*/
+.footer {
+    background-color: #ffffff;
+    /* color de fondo */
+    color: #9c9393;
+    /* color del texto */
+    padding: 20px;
+    /* espacio interno */
+    text-align: center;
+    /* alineación del texto */
+  
+    width: 100%;
+    /* ancho completo */
+    bottom: 0;
+    /* pegado al borde inferior de la pantalla */
+}
 
-section.footer{
-   
+.footer__rodape {
+    display: flex;
+    /* contenedor flexible */
+    flex-wrap: wrap;
+    /* envolver en filas */
+    justify-content: center;
+    /* centrar horizontalmente */
+    align-items: center;
+    /* centrar verticalmente */
+}
+
+.footer__rodape p {
+    margin: 0 10px;
+    /* márgenes internos */
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
