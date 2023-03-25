@@ -1,0 +1,8 @@
+.menu{
+    display: inline-block;
+
+}
+
+.menu.nav{
+    display: inline-block;
+}
